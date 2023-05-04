@@ -1,0 +1,8 @@
+[main]
+debug = false
+port = 8000
+
+[gpio]
+chip = "/dev/gpiochip0"
+pins = [0, 1]
+names = ["pin0", "pin1"]
